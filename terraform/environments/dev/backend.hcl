@@ -1,2 +1,2 @@
-bucket = "terraform-state-bucket-hcl"
+bucket = "terraform-state-hcl"
 prefix = "terraform/state/dev" 
