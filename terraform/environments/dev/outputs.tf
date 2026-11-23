@@ -21,4 +21,4 @@ output "gke_cluster_location" {
 output "gke_cluster_endpoint" {
   description = "Kubernetes API endpoint for the dev cluster."
   value       = module.gke.cluster_endpoint
-}
+} 

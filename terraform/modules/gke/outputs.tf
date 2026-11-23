@@ -16,4 +16,4 @@ output "cluster_endpoint" {
 output "node_pool_name" {
   description = "Name of the cluster's worker node pool."
   value       = google_container_node_pool.primary.name
-}
+} 

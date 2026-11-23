@@ -49,4 +49,4 @@ variable "node_disk_size_gb" {
   description = "Standard persistent disk size per worker node in GB."
   type        = number
   default     = 20
-}
+} 

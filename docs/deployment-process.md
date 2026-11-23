@@ -59,4 +59,4 @@ This workflow never authenticates to GCP, accesses the remote backend, or applie
 
 ## Adding stage and prod later
 
-Before deploying either environment, populate its Terraform root, provider/backend configuration, variables, outputs, and lock file, and decide its state bucket prefix and approval policy. Then extend the deploy workflow with explicit stage/prod jobs or a controlled environment matrix, unique concurrency groups and GitHub Environments with required reviewers. Keep PR validation unauthenticated and scope any new WIF conditions and service-account access to the intended repository, branch, environment, and resources.
+Before deploying either environment, populate its Terraform root, provider/backend configuration, variables, outputs, and lock file, and decide its state bucket prefix and approval policy. Then extend the deploy workflow with explicit stage/prod jobs or a controlled environment matrix, unique concurrency groups and GitHub Environments with required reviewers. Keep PR validation unauthenticated and scope any new WIF conditions and service-account access to the intended repository, branch, environment, and resources. 

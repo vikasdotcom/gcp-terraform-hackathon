@@ -76,4 +76,4 @@ jobs:
       - name: Explain bootstrap plan limitation
         run: |
           echo "Bootstrap validation completed. Its data source reads the GCS bucket, so planning it requires GCP credentials and is intentionally omitted from this unauthenticated PR workflow."
-          echo "Bootstrap plan was omitted because its GCS data source requires GCP credentials." >> "$GITHUB_STEP_SUMMARY"
+          echo "Bootstrap plan was omitted because its GCS data source requires GCP credentials." >> "$GITHUB_STEP_SUMMARY" 

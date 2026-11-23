@@ -13,4 +13,4 @@ variable "zone" {
   description = "Single zone for the low-cost GKE cluster."
   type        = string
   default     = "us-central1-a"
-}
+} 

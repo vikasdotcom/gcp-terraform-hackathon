@@ -130,4 +130,4 @@ jobs:
 
       - name: Remove local plan file
         if: always()
-        run: rm -f tfplan
+        run: rm -f tfplan 

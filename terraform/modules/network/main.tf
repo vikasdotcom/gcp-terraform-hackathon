@@ -26,3 +26,4 @@ resource "google_compute_subnetwork" "this" {
     ip_cidr_range = var.services_secondary_cidr
   }
 }
+ 

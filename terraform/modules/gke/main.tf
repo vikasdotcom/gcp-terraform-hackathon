@@ -27,4 +27,4 @@ resource "google_container_node_pool" "primary" {
     disk_type    = "pd-standard"
     oauth_scopes = ["https://www.googleapis.com/auth/cloud-platform"]
   }
-}
+} 

@@ -32,4 +32,4 @@ module "gke" {
   services_secondary_range_name = module.network.services_secondary_range_name
 
   depends_on = [google_project_service.container]
-}
+} 

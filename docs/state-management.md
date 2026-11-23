@@ -10,4 +10,4 @@ If a local state file exists before enabling the backend, back it up securely an
 terraform init -migrate-state -backend-config=backend.hcl
 ```
 
-Run this from `terraform/environments/dev`, review the prompt, and confirm the remote destination. The deployment workflow does not migrate state automatically. Bootstrap state is local and contains only the read-only bucket verification.
+Run this from `terraform/environments/dev`, review the prompt, and confirm the remote destination. The deployment workflow does not migrate state automatically. Bootstrap state is local and contains only the read-only bucket verification. 
