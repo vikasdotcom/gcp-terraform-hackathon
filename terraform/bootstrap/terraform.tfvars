@@ -1,3 +1,3 @@
-project_id        = "sangram-gotke-hackthon"
-state_bucket_name = "terraform-state-bucket-hcl"
+project_id        = "My First Project"
+state_bucket_name = "terraform-state-hcl"
  
